@@ -1,6 +1,6 @@
 [package]
 name = "vorbisfile-sys"
-version = "0.0.8"
+version = "0.0.9"
 description = "FFI for the vorbisfile library"
 license = "MIT"
 authors = ["Pierre Krieger <pierre.krieger1708@gmail.com>"]
@@ -14,4 +14,4 @@ pkg-config = "0.3"
 [dependencies]
 libc = "*"
 ogg-sys = "*"
-vorbis-sys = "*"
+vorbis-sys = { git = "https://github.com/Hossein-Noroozpour/vorbis-sys.git" }
